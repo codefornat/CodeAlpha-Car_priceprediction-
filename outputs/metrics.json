@@ -1,0 +1,51 @@
+{
+  "selected_model": "Gradient boosting",
+  "best_parameters": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "holdout": {
+    "mae": 1.1984521934885481,
+    "rmse": 3.425451413724871,
+    "r2": 0.6523057114239847
+  },
+  "baseline_holdout": {
+    "mae": 3.06,
+    "rmse": 5.913395809515882,
+    "r2": -0.03618149344131272
+  },
+  "training": {
+    "mae": 0.22909801998012325,
+    "rmse": 0.3009323204667017,
+    "r2": 0.9960869601894488
+  },
+  "raw_rows": 301,
+  "duplicates_removed": 2,
+  "excluded_rows": 101,
+  "car_rows": 198,
+  "training_rows": 158,
+  "test_rows": 40,
+  "raw_missing_values": {
+    "Car_Name": 0,
+    "Year": 0,
+    "Selling_Price": 0,
+    "Present_Price": 0,
+    "Driven_kms": 0,
+    "Fuel_Type": 0,
+    "Selling_type": 0,
+    "Transmission": 0,
+    "Owner": 0
+  },
+  "reference_year": 2018,
+  "random_seed": 42,
+  "price_unit": "dataset units; commonly INR lakh for this dataset, not verified in supplied archive",
+  "data_sha256": "eb63f1b2098d1080aa099a7775f51f6c1f334522f7ff4c0264580fa6cdae0d55",
+  "versions": {
+    "python": "3.14.7",
+    "sklearn": "1.8.0",
+    "pandas": "2.3.3",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  }
+}
